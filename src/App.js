@@ -7,7 +7,7 @@ import Footer from './Footer.jsx';
 
 
 const API_KEY = process.env.REACT_APP_API_KEY;
-const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey='+API_KEY;
+const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey='+API_KEY;
 
 
 // we want to fetch data as soon as this component loads , so we will use  "useEffect" hook
